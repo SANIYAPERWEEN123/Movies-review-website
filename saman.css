@@ -1,0 +1,93 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;}
+  
+  body{
+    min-height: 100vh;
+  } 
+  a{
+    text-decoration: none;
+  }
+  li{
+    list-style: none;
+  } .side-menu{
+    position: fixed;
+    background-color: #F05462
+    width: 20vw;
+    min-height:100vh;
+    display :flex;
+    flex-direction: column;
+  }
+ .side-menu .brand-name{
+   height 
+display: flex;
+  align-item:center;
+  justify-content: center;
+ } 
+ .side-menu li{
+   font-size: 24px;
+   
+   padding: 10px,40px;
+   color: 
+   display:flex;
+   align-item:center;
+ }
+
+ }
+::-webkit-scrollbar-track{
+  background : transparent;
+}
+::-webkit-scrollbar-thumb{
+  background:#43575B;
+  border-radius: 50px;
+}
+
+
+body{
+font-family:"poppins",sans-serif Arial;
+background-color: #425A58
+}
+header{
+  background-color: #59425A
+ display :flex;
+  justify-content: space-between;
+  padding:3rem;
+  
+}
+.logo,#search_res,#total_records{
+  font-size: 25px;
+  font-weight: 700px;
+  color:#ddd;
+  
+}
+.search_res{
+  margin-top: 30px
+}
+#total_records{
+  font-weight: 150px;
+  font-size: 1rem;
+  letter-spacing: 2px;
+}
+.searh{
+  background-color: transparent;
+  border:2px solid #425A4F
+  border-radius:40px;
+  color:#5B4343
+  font-size:1rem;
+}
+
+  .search:focus{
+    background-color: #425A4B
+  }
+  .main{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .movie{
+    width: 400px;
+    border-radius: 5px;
+  }
+  .movie img{
+    width: 100%;
+  }
